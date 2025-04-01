@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { AudioWaveform } from 'lucide-react';
+import Navigation from './Navigation';
 
 const AppHeader: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const AppHeader: React.FC = () => {
             </p>
           </div>
         </div>
+        <Navigation />
       </div>
     </header>
   );
